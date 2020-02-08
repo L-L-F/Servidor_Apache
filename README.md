@@ -8,7 +8,7 @@ Primeiramente atualizaremos os repositorios do Ubunto pra isso você deve abrir 
 
 `$ sudo apt-get update`
 
-*Ao digitar "sudo" o terminal pedira a senha do administrador.
+Ao digitar "sudo" o terminal pedira a senha do administrador*
 
 ## Instalação
 
@@ -49,16 +49,17 @@ Para adicionar uma pagina Web no Servidor Apache è muito simples. Procure o loc
 `$ cd /home/<NomedoUsuario>/Downloads`
 
 Depois de está no destino absoluto da pasta, agora só mover ou copiar o arquivo usando o comando sudo para ter permissão de colar a pasta no destino onde se encotra o Apache. Os Comandos são:
-*Para MOVER
 
-`sudo mv Site /var/www/html/`
+Para MOVER*
 
-*Para COPIAR
+`sudo mv <NomeDaPasta> /var/www/html/`
 
-`sudo cp Site /var/www/html/`
+Para COPIAR*
+
+`sudo cp <NomeDaPasta> /var/www/html/`
 
 Pronto. Agora só acessar digitando o enderço no navegador onde ele esta hopedado pelo Servidor Apache.
 
 ## Acessando Páginas hospedadas do Apache
 
-Em seu navegador digite http://localhost/<NomeDaPasta> o endereço da pagina padrão do Servidor Apache mais o nome da pasta onde se encontra o HTML, CSS e o JavaScript e pronto.
+Em seu navegador digite http://localhost/<NomeDaPasta> o endereço da pagina padrão do Servidor Apache mais o nome da pasta onde se encontra o HTML, CSS e o JavaScript e pronto agora é só selecionar o Arquivo desejado.
