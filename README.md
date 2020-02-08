@@ -62,4 +62,4 @@ Pronto. Agora só acessar digitando o enderço no navegador onde ele esta hopeda
 
 ## Acessando Páginas hospedadas do Apache
 
-Em seu navegador digite http://localhost/<NomeDaPasta> o endereço da pagina padrão do Servidor Apache mais o nome da pasta onde se encontra o HTML, CSS e o JavaScript e pronto agora é só selecionar o Arquivo desejado.
+Em seu navegador digite http://localhost/"<NomeDaPasta>" o endereço da pagina padrão do Servidor Apache mais o nome da pasta onde se encontra o HTML, CSS e o JavaScript e pronto agora é só selecionar o Arquivo desejado.
