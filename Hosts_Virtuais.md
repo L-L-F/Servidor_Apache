@@ -33,7 +33,7 @@ Concederemos totais permiçoes dos diretorios para que o usuário comum possa re
 
 Crie um arquivo no formato .html para teste ou ultilize um HTML pronto para testar, você pode usar o aplicativo Sublime para fazer o HTML. Segue um exemplo:
 
-'<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Teste</title>
@@ -41,7 +41,7 @@ Crie um arquivo no formato .html para teste ou ultilize um HTML pronto para test
 <body>
 <h1>Olá Mundo</h1>
 </body>
-</html>'
+</html>
 
 ### Criando Arquivo de Host Virtual
 
@@ -53,14 +53,14 @@ Ultilizaremos como exemplo o nome do diretorio do hosts <Nome_do_Host>.conf. Voc
 
 Dentro desse arquivo insira os dados abaixo e salve.
 
-'<VirtualHost *:80>
+<VirtualHost *:80>
         ServerAdmin <Nome_do_Host>@gmail.com
         ServerName <Nome_do_Host>.com
         ServerAlias www.<Nome_do_Host>.com
         DocumentRoot /var/www/<Nome_do_Host>
         ErrorLog ${APACHE_LOG_DIR}/erro.log
         Customlog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>'
+</VirtualHost>
 
 ### Ativando Host Virtual
 
