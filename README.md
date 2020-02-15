@@ -120,14 +120,14 @@ $ sudo nano <Nome_do_Host>.conf`
 Dentro desse arquivo insira os dados abaixo e salve.
 
 <VirtualHost *:80>
-
+`
         ServerAdmin <Nome_do_Host>@gmail.com
         ServerName <Nome_do_Host>.com
         ServerAlias www.<Nome_do_Host>.com
         DocumentRoot /var/www/<Nome_do_Host>
         ErrorLog ${APACHE_LOG_DIR}/erro.log
         Customlg ${APACHE_LOG_DIR}/access.log combined
-	
+`	
 </VirtualHost>
 
 ### Ativando Host Virtual
